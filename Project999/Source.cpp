@@ -14,7 +14,7 @@ int main()
     const char* words[maxWords] = slovar;
     const char* questions[maxWords] = qtoslovar;
     //Оголошення змінних
-    char board[maxBoardSize][maxBoardSize], currentString[80];
+    char board[maxBoardSize][maxBoardSize], currentString[90];
     int n, successWords = 0, newRow, newColumn, newOrientation, numLetters,
         letters[maxBoardSize * maxBoardSize], letterRow, letterColumn,
         bestCross, bestRow, bestColumn, bestOrientation, bestWord,
