@@ -18,7 +18,7 @@ int main()
     int n, successWords = 0, newRow, newColumn, newOrientation, numLetters,
         letters[maxBoardSize * maxBoardSize], letterRow, letterColumn,
         bestCross, bestRow, bestColumn, bestOrientation, bestWord,
-        searchWord[maxWords * 10], searchLetterPos[maxWords * 10],
+        searchWord[maxWords * 20], searchLetterPos[maxWords * 10],
         searchCross[maxWords * 10], boardSize, builds = 0, choice = 0, choice2,
         horizontal[maxWords] = { 0 }, vertical[maxWords] = { 0 }, numWord = 0;
     bool running = true;
