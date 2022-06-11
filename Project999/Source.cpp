@@ -10,9 +10,9 @@ int main()
 {
     SetConsoleCP(1251);
     SetConsoleOutputCP(1251);
-    const char* tempPtr;
-    const char* words[maxWords] = slovar;
-    const char* questions[maxWords] = qtoslovar;
+    char* tempPtr;
+    char* words[maxWords] = slovar;
+    char* questions[maxWords] = qtoslovar;
     //Оголошення змінних
     char board[maxBoardSize][maxBoardSize], currentString[90];
     int n, successWords = 0, newRow, newColumn, newOrientation, numLetters,
